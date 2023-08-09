@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TripPlanner</string>
+    <string name="distance">Distance</string>
+    <string name="total_kilometers">Total Kilometers</string>
+    <string name="price">Price</string>
+    <string name="price_per_liter">Price per Liter</string>
+    <string name="autonomy">Autonomy</string>
+    <string name="kms_per_liter">KMs per Liter</string>
+    <string name="your_total_expenditure_will_be">YOUR TOTAL EXPENDITURE WILL BE:</string>
+    <string name="_0">$ 0</string>
+    <string name="calculate">CALCULATE</string>
+</resources>

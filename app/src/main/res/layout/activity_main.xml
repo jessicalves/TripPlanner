@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:hint="@string/distance"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textDistance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/total_kilometers" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:hint="@string/price"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/price_per_liter" />
+
+    <EditText
+        android:id="@+id/editAutonomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:hint="@string/autonomy"
+        tools:ignore="LabelFor,VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/textAutonomy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="@string/kms_per_liter" />
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/your_total_expenditure_will_be"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/_0"
+        android:textColor="@color/material_dynamic_tertiary20"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        android:padding="16dp"
+        android:text="@string/calculate"
+        android:textSize="18sp" />
+</LinearLayout>
